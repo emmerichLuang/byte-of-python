@@ -11,3 +11,4 @@ print(bric.issuperset(bri))
 bri.remove('russia')
 
 print(bri & bric)
+

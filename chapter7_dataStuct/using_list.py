@@ -21,4 +21,9 @@ olditem = shoppingList[0]
 del shoppingList[0]
 print('I bought the', olditem)
 
+
+
 print('\nMy shopping list is now:', shoppingList)
+
+
+print('\n orange? :', 'orange' in shoppingList)

@@ -9,5 +9,6 @@ def my_main():
     else:
         print('被调用, __name__:',__name__)
 
+
 __version__ = '0.1'
 

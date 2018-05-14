@@ -6,11 +6,18 @@ ab = {
 'Spammer': 'spammer@hotmail.com'
 }
 
+print("all:", ab)
+
+
 print("Swaroop's address is", ab['Swaroop'])
 # 删除一对键值—值配对
 del ab['Spammer']
 
 print('\nThere are {} contacts in the address-book\n'.format(len(ab)))
+
+# 两种遍历
+for k in ab.keys():
+    print('key:',k ,'. value:',ab[k])
 
 for name, address in ab.items():
     print('Contact {} at {}'.format(name, address))
