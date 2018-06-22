@@ -3,6 +3,7 @@
 
 # @Desc: 用到@classmethod 还有类里面的全局变量。 全局变量：Class.xxx   过程变量：self.xxx
 #  Python 中，所有参数都是公开的，并且所有的方法都是虚拟的（Virtual）
+# classmethod和staticmethod都是静态方法，唯一区别是classmethod多一个cls参数，可以获取当前实例的属性
 
 # @Author: E.E.
 # @Email:emmerichliang@gmail.com 
